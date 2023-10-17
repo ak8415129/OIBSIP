@@ -3,13 +3,12 @@ body{
     
 } 
 
-/* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
 }
 
-/* Style the navigation bar */
+
 header {
     background-color: #8d8a8a;
     color: #fff;
@@ -44,7 +43,7 @@ nav {
     font-weight: bold;
 }
 
-/* Style the hero section */
+
 .hero {
     margin-top: 80px;
     text-align: center;
