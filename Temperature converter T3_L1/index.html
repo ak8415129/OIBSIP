@@ -3,31 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temperature Converter Website</title> 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Temperature Converter</title>
 </head>
-<body> 
+<body>
     <div class="container">
-    <form> 
-        <div class="form-area">
-        <label for="itemp">Enter Temperature :</label><br>
-        <input type="number" id="input-box"><br> 
-     <div class="option">   
-    <input type="radio" id="farn"value="Fahrenheit">
-  <label for="html">Fahrenheit</label><br>
-  <input type="radio" id="cel"  value="Celsius">
-  <label for="css">Celsius</label><br>  
-  </div>
-  </div>
- </form>  
- 
-
-</div> 
-<div class="btn">
-<button id="convertBtn">Convert</button> 
-</div>
-<div class="output">
-</div> 
-<script src="script.js"></script>
+        <h1>Temperature Converter</h1>
+        <input type="number" id="inputTemp" placeholder="Enter temperature">
+        <select id="conversionType">
+            <option value="celsius">Celsius to Fahrenheit</option>
+            <option value="fahrenheit">Fahrenheit to Celsius</option>
+        </select>
+        <button id="convertBtn">Convert</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
