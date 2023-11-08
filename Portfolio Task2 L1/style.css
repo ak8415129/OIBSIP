@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+body{
+    background-color: rgb(0, 0, 32);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+;
+} 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+} 
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+} 
+.left{
+    font-size: 1.5rem;
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0 ;
+}
+.firstsection >div{
+    width: 39%;
+} 
+.leftsection{
+
+    font-size: 3rem;
+    margin: 6px 0;
+} 
+.rightsection img{ 
+  width: 80%;
+  margin: 50px 0;
+    
+} 
+.purple{
+    color: rgb(107, 107, 228);
+}
