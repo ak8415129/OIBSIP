@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #e9f7f9, #cce4e9);
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    padding: 1.5rem 0;
+    border-top: 2px solid #e0e0e0;
+}
+
+h2 {
+    color: #333;
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+p {
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+/* Previous CSS styles remain unchanged */
+
+.achievements {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+}
+
+.quotes {
+    margin-top: 1rem;
+}
+
+blockquote {
+    border-left: 5px solid #ffd700;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+    color: #444;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffd700;
+}
